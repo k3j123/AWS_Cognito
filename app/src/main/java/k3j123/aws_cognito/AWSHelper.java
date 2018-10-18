@@ -36,25 +36,25 @@ public class AWSHelper {
     /**
      * Add your pool id here
      */
-    private static final String userPoolId = "us-east-2_8TewjpODR";
+    private static final String userPoolId = "us-east-1_XXXXXXXX";
 
     /**
      * Add you app id
      */
-    private static final String clientId = "3vsd5msl5h2b0u3712p9b4elqa";
+    private static final String clientId = "XXXXXXXXXXXXXXXXXX";
 
     /**
      * App secret associated with your app id - if the App id does not have an associated App secret,
      * set the App secret to null.
      * e.g. clientSecret = null;
      */
-    private static final String clientSecret = "11ptil3ifn1l14g4kofbvfrg3dvfj1s5gvhtohv5b6n3rh3v5sso";
+    private static final String clientSecret = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 
     /**
      * Set Your User Pools region.
      * e.g. if your user pools are in US East (N Virginia) then set cognitoRegion = Regions.US_EAST_1.
      */
-    private static final Regions cognitoRegion = Regions.US_EAST_2;
+    private static final Regions cognitoRegion = Regions.US_EAST_1;
 
     // User details from the service
     private static CognitoUserSession currSession;
